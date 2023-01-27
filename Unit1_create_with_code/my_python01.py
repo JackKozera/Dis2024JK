@@ -1,11 +1,8 @@
 # this is a comment
-""""
-multi line comment
-dssddssd
-""""
-name = input("what is your name?")
-age = input("What is your age?")
 
-age = 2023 + age
+name = input("what is your name? ")
+age = int(input("What is your age? "))
 
-print("hi, " +name "your age in 20 years will be ", age)
+age = 20 + age
+
+print("hi " +name, "in 20 years you will be", age)
